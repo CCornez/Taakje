@@ -1,0 +1,47 @@
+@use "./base/mixins" as *;
+@use "./base/variables" as *;
+@use "./base/reset";
+@use "./base/fonts";
+@use "../icons/style.css";
+
+html {
+  font-size: 62.5%;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+
+.square,
+.triangle,
+.circle {
+  position: absolute;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+}
+
+#counter {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul li {
+    font-size: 20px;
+    &.won {
+      background-color: white;
+    }
+  }
+}
