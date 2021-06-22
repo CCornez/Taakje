@@ -9,8 +9,11 @@ Het resultaat kunt u [hier](https://fe-cc-taakje.surge.sh) vinden
 - als 2 => plaats cirkel met randomcolor met random zijde (minimum:50px max 100px) in zone 2 (rechtsboven) mag max 10px van rand staan.
 - als 3 => plaats gelijkzijdige driehoek (punt naar boven) met randomcolor met random zijde (minimum:50px max 100px) in zone 3 (rechtsonder) mag max 10px van rand staan.
 - in zone 4 (linksonder) toon je telkens een overzicht van alle aantallen reeds geplaatste geometriche vormen zoals hier:
+  
   vierkanten : 5
+  
   cirkels: 3
+  
   driehoeken: 8
 
 - als er 50 vormen werden gegenereerd stop je de timer en toon je de met fluo gearceerd welk groep gewonnen is (dus de tekst waar de aantallen staan markeren)
