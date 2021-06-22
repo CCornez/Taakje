@@ -11,7 +11,9 @@ Het resultaat kunt u [hier](https://fe-cc-taakje.surge.sh) vinden
 - in zone 4 (linksonder) toon je telkens een overzicht van alle aantallen reeds geplaatste geometriche vormen zoals hier:
   
   vierkanten : 5
+  
   cirkels: 3
+  
   driehoeken: 8
 
 - als er 50 vormen werden gegenereerd stop je de timer en toon je de met fluo gearceerd welk groep gewonnen is (dus de tekst waar de aantallen staan markeren)
