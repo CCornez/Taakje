@@ -5,7 +5,7 @@
     "build": "npm run clean && parcel build ./src/index.html --dist-dir ./out --no-source-maps",
     "clean": "rm -rf ./.parcel-cache ./dist ./out",
     "serve": "live-server ./out",
-    "deploy": "surge ./out --domain https://fe-cc-taakje.surge.sh"
+    "deploy": "surge ./out --domain https://www.fe-cc-taakje.surge.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
